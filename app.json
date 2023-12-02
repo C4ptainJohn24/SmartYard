@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "smart-yard",
+    "slug": "smart-yard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logom.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash5.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logom.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.c4ptain_john.smartyard"
+    },
+    "web": {
+      "favicon": "./assets/logom.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "82b89409-752c-48fb-8362-42a42404c519"
+      }
+    }
+  }
+}
